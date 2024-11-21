@@ -1,6 +1,4 @@
 CPSC - 3990 Quantitative Financial Analysis and Comparison Using Python
-Author: Matthew Gillett
-Id: 001230643
 --------------------------------------------------------------
 Black-Scholes Finanical Model:
     - Call and Put Calculations W/O Dividend.
