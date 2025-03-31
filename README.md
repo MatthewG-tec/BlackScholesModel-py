@@ -14,19 +14,19 @@ Compiling Code:
         1. python main.py
         2. Runs tests and everything from running main.py
 --------------------------------------------------------------
-blackscholes.py
+    blackscholes.py
     - Handles all calculation function for: 
         1. Call and Put with and without dividends.
         
-BlackScholesTest.py
+    BlackScholesTest.py
     - Testing functions use similar framework to mock.
         1. All four put and call calculations tested with and without  dividends. 
         2. Getting manual inputs as well as excel inputs.
         
-exclparse.py
+    exclparse.py
     - Handels pulling data from excel sheet if user does not want to manually input.
 
-main.py
+    main.py
     - Overall execution of the program and running the tests: 
         1. Prompting the user choice for manual input/excel parse. 
         2. Runs test cases prior to running code to ensure functions are working correctly. 
@@ -34,7 +34,7 @@ main.py
         4. Plotter also runs through main to output chart for each calculation. 
         5. Overvalue or undervalue of option price.
         
-plotter.py
+    plotter.py
     - Function for outputting the ITM, OTM, and ATM chart for visualizing call and put prices
 --------------------------------------------------------------
 Required Libraries:
